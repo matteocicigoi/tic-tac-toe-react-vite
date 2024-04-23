@@ -23,17 +23,14 @@
 
 .val-O {
   color: lime;
-  /* Blu scuro */
 }
 
 .val-X {
   color: white;
-  /* Blu scuro */
 }
 
 .win {
   background-color: #1E2D40;
-  /* Blu scuro */
 }
 
 .board-row {
@@ -70,12 +67,9 @@ h1 {
   font-size: 16px;
   cursor: pointer;
   background-color: #747F8C;
-  /* Grigio */
   color: #F2F2F2;
-  /* Bianco */
   border: none;
   width: 180px;
-  /* Larghezza fissa */
   padding: 10px 20px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -87,5 +81,4 @@ h1 {
 
 .game-info button:hover {
   background-color: #1E2D40;
-  /* Blu scuro */
 }
