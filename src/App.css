@@ -1,0 +1,91 @@
+.square {
+  font-size: 18px;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  border: none;
+  background-color: rgba(242, 242, 242, 0.5);
+  /* Trasparenza al bianco */
+  color: #F2F2F2;
+  /* Bianco */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+.square:hover {
+  transform: scale(1.1);
+}
+
+.val-O {
+  color: lime;
+  /* Blu scuro */
+}
+
+.val-X {
+  color: white;
+  /* Blu scuro */
+}
+
+.win {
+  background-color: #1E2D40;
+  /* Blu scuro */
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.status {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.game-info {
+  margin-top: 20px;
+  color: white;
+}
+
+.game-info button {
+  margin-bottom: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #747F8C;
+  /* Grigio */
+  color: #F2F2F2;
+  /* Bianco */
+  border: none;
+  width: 180px;
+  /* Larghezza fissa */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.game-info h4 {
+  text-align: center;
+}
+
+.game-info button:hover {
+  background-color: #1E2D40;
+  /* Blu scuro */
+}
